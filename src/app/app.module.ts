@@ -21,6 +21,9 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 //Servicios
 
 import { ServiceModule } from './services/service.module';
+import { ImagenPipe } from './pipes/imagen.pipe';
+import { PipesModule } from './pipes/pipes.module';
+
 
 
 
@@ -32,6 +35,7 @@ import { ServiceModule } from './services/service.module';
     RegisterComponent,
 
 
+
   ],
   imports: [
     BrowserModule,
@@ -39,7 +43,9 @@ import { ServiceModule } from './services/service.module';
     PagesModule,
     FormsModule,
     ReactiveFormsModule,
-    ServiceModule
+    ServiceModule,
+    PipesModule,
+
 
   ],
   providers: [],
