@@ -28,6 +28,8 @@ import { RxjsComponent } from './rxjs/rxjs.component';
 import { PipesModule } from '../pipes/pipes.module';
 import { DecimalPipe, CommonModule } from '@angular/common';
 import { ProfileComponent } from './profile/profile.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
+import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
 
 
 
@@ -43,7 +45,9 @@ declarations: [
   AccountSettingsComponent,
   PromesasComponent,
   RxjsComponent,
-  ProfileComponent
+  ProfileComponent,
+  UsuariosComponent,
+  ModalUploadComponent
 ],
 
 exports: [
