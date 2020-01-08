@@ -42,3 +42,4 @@ export class ImagenPipe implements PipeTransform {
   }
 
 }
+
