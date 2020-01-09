@@ -6,6 +6,8 @@ import {  HttpClientModule } from '@angular/common/http';
 
 
 
+
+
 import {SettingsService,
         SidebarService,
         SharedService,
@@ -13,6 +15,7 @@ import {SettingsService,
         SubirArchivoService,
         HospitalService,
         MedicoService,
+        AdminGuard
       } from './service.index';
 
 
@@ -32,6 +35,7 @@ import {SettingsService,
     SubirArchivoService,
     HospitalService,
     MedicoService,
+    AdminGuard
   ],
 })
 export class ServiceModule { }
